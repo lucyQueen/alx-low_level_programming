@@ -1,15 +1,23 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: lower case
+ */
+
 #include <stdio.h>
-int main(void)
 
 /**
-  *main - print alphabet in lower case
+  * main - Prints lowercase alphabets
   *
-  *Return: 0 if correct0
+  * Return: Always 0.
   */
+int main(void)
 {
 	char letter;
+
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
+
 	putchar('\n');
-	return 0;
+
+	return (0);
 }
