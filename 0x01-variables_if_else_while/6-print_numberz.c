@@ -4,7 +4,7 @@
   *followed by a new line
   *Return: always return 0
   */
-int main(void);
+int main(void)
 {
 	int num;
 
