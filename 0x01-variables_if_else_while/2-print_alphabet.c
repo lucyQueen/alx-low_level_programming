@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main()
+int main(void)
+
 {
-	char i;
-	     		     
-	printf("\n\nLower case characters:\n");
-	for(i='a'; i<='z'; i++)
-		printf("%c ",i);
-	         
-        return 0
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	putchar('\n');
+	return 0;
 }
