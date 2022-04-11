@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main - prints program will assign a random number to the variable n.  
-  *
-  *Return: always return 0
-  */
+ *main - prints program will assign a random number to the variable n.  
+ *
+ *Return: always return 0
+ */
 int main(void)
 {
 	int n;
