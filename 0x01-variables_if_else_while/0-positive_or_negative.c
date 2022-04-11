@@ -7,7 +7,7 @@
   *
   *Return: always return 0.
   */
-int main(void)
+int main = rand() - RAND_MAX / 2;
 {
 	int n;
 
