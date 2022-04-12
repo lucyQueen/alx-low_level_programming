@@ -1,15 +1,25 @@
 #include "main.h"
 /**
-  *add - adds integers
-  * function that prints 10 times the alphabet, in lowercase
+  *print_alphabet_x10 - adds integers and prints 10 times
+  * function that prints 10 times the alphabet.
   *Return: return void
   */
-int add(int n1, int n2)
+void print_alphabet_x10(void)
 {
 
-	int sum;
+	int round = 0;
+	char b = 'a';
 
-	sum = n1 + n2;
+	while (round < 10)
+	{
+		b = 'a';
+		while (b <= 'z')
+		{
+			_putchar(b);
+			b++;
+		}
+		_putchar('\n');
 
-	return (sum);
+		round++;
+	}
 }
