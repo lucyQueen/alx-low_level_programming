@@ -4,14 +4,14 @@
   *followed by a new line
   *Return: program returns 0
   */
-void print_alphabet(void);
+void print_alphabet (void);
 {
-	char (letter = 'a');
+	char (b = 'a');
 
-	while (letter <= 'z')
+	while (b <= 'z')
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 
