@@ -1,17 +1,32 @@
+#include <stdio.h>
 #include "main.h"
 /**
-  *add - adds two integers
-  *@n1: integer 1
-  * @n2: integer 2
-  *Description: give two integers, returns sum
-  *Return: sum
+  *print_to_98 - prints all natural numbers from n to 98
+  *@n: starting integer
+  *Description: prints all natural number from n - 98
+  *Return: void
   */
 
-int add(int n1, int n2)
+void print_to_98(int n)
 {
-	int sum;
-
-	sum = n1 + n2;
+	if (n < 98)
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n);
+			n++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (n > 98)
+		{
+			printf("%d, ", n);
+			n--;
+		}
+	}
+	printf("98\n");
+}
 
 	return (sum);
 }
