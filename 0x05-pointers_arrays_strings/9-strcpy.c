@@ -2,7 +2,7 @@
 /**
   **_strcpy - copy string
   *@dest: char type string
-  *@scr: char typr string
+  *@src: char typr string
   *Return:pointer to dest
   */
 char *_strcpy(char *dest, char *src)
