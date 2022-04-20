@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
   *_puts - print string
   *@str: pointer to string
