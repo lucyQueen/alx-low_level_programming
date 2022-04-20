@@ -1,4 +1,4 @@
-#include "maih.h"
+#include "main.h"
 /**
   *_puts - print string
   *@str: pointer to string
