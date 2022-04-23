@@ -4,7 +4,7 @@
 /**
   *infinite_add - function that adds two numbers
   *@n1: first number
-  *@n2 second number
+  *@n2: second number
   *@r:buffer
   *@size_r: buffer size
   *Return: return dest
