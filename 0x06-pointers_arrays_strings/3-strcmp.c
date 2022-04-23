@@ -3,12 +3,12 @@
 /**
   *_strcmp - function that compares two strings
   *@s1: first string
-  *@s2: second string
+i  *@s2: second string
   *Return: return 0 is s1 and s2 are equal
   */
-int _strcmp(char *s1, char s2)
+int _strcmp(char *s1, char *s2)
 {
-	int 1 = 0, op = 0;
+	int i = 0, op = 0;
 
 	while (op == 0)
 	{
