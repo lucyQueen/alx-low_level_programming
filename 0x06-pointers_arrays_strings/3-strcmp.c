@@ -2,9 +2,9 @@
 #include "main.h"
 /**
   *_strcmp - function that compares two strings
-  *@str1: first string
-  *@str2: second string
-  *Return: return 0 is str1 and str2 are equal
+  *@s1: first string
+  *@s2: second string
+  *Return: return 0 is s1 and s2 are equal
   */
 int _strcmp(char *s1, char s2)
 {
