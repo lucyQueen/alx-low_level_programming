@@ -1,21 +1,12 @@
 #include "main.h"
 
 /**
-  *_memcpy - function that sets the value of a pointer to a char
-  *@dest: pointer to string
-  *@src:pointer to source string
-  *@n:number of string
+  *set_string - function that sets the value of a pointer to a char
+  *@s: pointer to string
+  *@to:pointer to source string
   *Return:ponter
   */
-
-char *_memcpy(char *dest, char *src, unsigned int n)
+void set_string(char **s, char *to)
 {
-	unsigned int i = 0;
-
-	while (i < n)
-	{
-		*(dest + i) = *(src + i);
-		i++;
-	}
-	return (dest);
+	*s = to;
 }
