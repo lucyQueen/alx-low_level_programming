@@ -16,10 +16,13 @@ int _strlen_recursion(char *str)
 	return (a);
 }
 /**
-  *is_palindrome -  function that returns 1 if a string is a palindrome and 0 if not
+  *_palindrome - function that returns 1 if a
+  *string is a palindrome and 0 if not
   *@a:input
   *@b:input
   *@c:pointer
+  *
+  *Return:return 1
   */
 int _palindrome(int a, int b, char *c)
 {
@@ -31,7 +34,8 @@ int _palindrome(int a, int b, char *c)
 		return (_palindrome(b, a + 1, c));
 }
 /**
-  *is_palindrome - function that returns 1 if a string is a palindrome and 0 if not
+  *is_palindrome - function that returns 1 if
+  *a string is a palindrome and 0 if not
   *@s: input
   *
   *Return:return integer
