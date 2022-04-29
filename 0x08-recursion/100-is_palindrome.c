@@ -3,6 +3,7 @@
 /**
   *_strlen_recursion - lenght of string
   *@str:pointer
+  *
   *Return:return pointer
   */
 int _strlen_recursion(char *str)
@@ -24,7 +25,7 @@ int _strlen_recursion(char *str)
   *
   *Return:return 1
   */
-int _palindrome(int a, int b, char *c)
+int _palindrome(int b, int a, char *c)
 {
 	if (a > b / 2)
 		return (1);
