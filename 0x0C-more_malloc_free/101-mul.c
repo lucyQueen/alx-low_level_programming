@@ -106,7 +106,7 @@ void multiply(char *s1, char *s2)
  *
  * Description: a program that multiplies
  *            two positive numbers
- ** @argc: number of arguments
+ *@argc: number of arguments
  *@argv: arguments array
  *
  * Return: 0 on success 98 on faliure
@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3 || check_number(n1) || check_number(n2))
 		error_exit();
-	
+
 	if (*n1 == '0' || *n2 == '0')
 	{
 		_putchar('0');
