@@ -4,6 +4,7 @@
 /**
   *print_dog - function that prints a struct dog
   *@d:struct
+  *
   *Return:return 0
   *
   */
