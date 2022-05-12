@@ -13,7 +13,7 @@ typedef struct dog dog_t;
   *@age:age
   *@owner:owner
   *
-  *Description
+  *Description:struct that stores name, age and owner
   *
   */
 struct dog
