@@ -4,7 +4,7 @@
 /**
   *sum_them_all - sumation
   *@n: number of paramters
-  *@..." paramters to calculate the sum
+  *@...: paramters to calculate the sum
   *
   *Return: return 0
   *
