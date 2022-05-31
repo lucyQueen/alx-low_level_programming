@@ -1,24 +1,65 @@
-#include "main.h"
+/**
+ *_pow_recursion - returns the value of x raised to the power of y.
+ *@x: parameter integer
+ *@y: parameter integer
+ *Return: pow number
+ */
+int _pow_recursion(int x, int y)
+{
+	if (y > 0)
+		return (_pow_recursion(x, y - 1) * x);
+	else if (y == 0)
+		return (1);
+	else
+		return (-1);
+}
 
 /**
- * binary_to_uint - function that converts a binary number to an unsigned int.
- * @b: A pointer to a string of 0 and 1 chars.
- *
- * Return:retun 0
+ *_strlen_recursion - returns the length of a string
+ *@s: pointer parameter character
+ *Return: count size
+ */
+int _strlen_recursion(const char *s)
+{
+	int count = 0;
+
+	if (*s)
+	{
+		count++;
+		return (count + _strlen_recursion(s + 1));
+	}
+	else
+	{
+		return (count);
+	}
+}
+
+/**
+ * binary_to_uint - converts a binary number to an unsigned int
+ * @b: is pointing to a string of 0 and 1 chars
+ * Return: the converted number
  */
 unsigned int binary_to_uint(const char *b)
 {
-  unsigned int val = 0;
-  int i = 0;
+	int i = 0, len = 0;
+	unsigned int number = 0;
 
-  if (b == NULL)
-    return 0;
+	if (!b)
+		return (0);
 
-  while (b[i] == '0' || b[i] == '1')
-  {  // Found another digit.
-    val <<= 1;
-    val += b[i]-'0';
-    i++;
-  }
-  return val;
+	len = _strlen_recursion(b) - 1;
+
+	while (b[len])
+	{
+		if (b[len] == '0')
+			number += 0;
+		else if (b[len] == '1')
+			number += _pow_recursion(2, i);
+		else
+			return (0);
+		len--;
+		i++;
+	}
+
+	return (number);
 }
